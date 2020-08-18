@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="of"
+          fetch="https://gitlab.com/OrangeFox/" />
+          
+  <remote name="of-k"
+          fetch="https://gitlab.com/OrangeFox/Kernels/" />
+          
+  <remote name="of-d"
+          fetch="https://gitlab.com/OrangeFox/Devices/" />
+
+  <remove-project name="android_bootable_recovery"/>
+  <remove-project name="android_build"/>
+
+  <project name="Build" path="build" remote="of" revision="fox_7.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project name="Recovery" path="bootable/recovery" remote="of" revision="master" />
+  
+  <project name="Vendor" path="vendor/recovery" remote="of" revision="fox_8.1" />
+
+  <project name="mido" path="device/xiaomi/mido" remote="of-d" revision="fox_8.1" />
+  <project name="mido" path="kernel/xiaomi/mido" remote="of-k" revision="of" />
+
+  <project name="TeamWin/android_device_qcom_common" path="device/qcom/common" remote="github" revision="android-7.1" />
+
+</manifest>
