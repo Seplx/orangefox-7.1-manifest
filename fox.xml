@@ -3,12 +3,6 @@
 
   <remote name="of"
           fetch="https://gitlab.com/OrangeFox/" />
-          
-  <remote name="of-k"
-          fetch="https://gitlab.com/OrangeFox/Kernels/" />
-          
-  <remote name="of-d"
-          fetch="https://gitlab.com/OrangeFox/Devices/" />
 
   <remove-project name="android_bootable_recovery"/>
   <remove-project name="android_build"/>
