@@ -19,7 +19,7 @@
   <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-7.1" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-7.1"/>
 
-  <project path="vendor/omni" name="omnirom/android_vendor_omni" remote="github" revision="android-7.1" />
+  <project path="vendor/omni" name="Seplx/android_vendor_omni" remote="github" />
 
   <!-- LAST: Remove unused/forked Projects for minimal TWRP -->
   <include name="remove-minimal.xml" />
