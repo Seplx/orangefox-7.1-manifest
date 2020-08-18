@@ -1,6 +1,6 @@
 To initialize a shallow clone
 
-    repo init --depth=1 -u https://gitlab.com/Seplx/orangefox-7.1-manifest.git
+    repo init --depth=1 -u https://github.com/Seplx/orangefox-7.1-manifest.git
 
 Then to sync up:
 
