@@ -23,4 +23,4 @@
   
   <project name="TeamWin/android_device_qcom_common" path="device/qcom/common" remote="github" revision="android-7.1" />
 
-<manifest>
+</manifest>
