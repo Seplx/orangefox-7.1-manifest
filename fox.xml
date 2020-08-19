@@ -15,7 +15,8 @@
         <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
-    
+    </project>
+
   <project name="bootable/Recovery" path="bootable/recovery" remote="of" revision="refs/tags/R8.0" />
   
   <project name="vendor/omni" path="vendor/omni" remote="of" revision="android-7.1" />
