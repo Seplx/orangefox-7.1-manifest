@@ -7,7 +7,7 @@
   <remove-project name="android_bootable_recovery"/>
   <remove-project name="android_build"/>
 
-  <project name="build/make" path="build/make" remote="fox" revision="fox_7.1" >
+  <project name="build/make" path="build/make" remote="of" revision="fox_7.1" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
