@@ -8,13 +8,13 @@
   <remove-project name="android_build"/>
 
   <project name="build/make" path="build/make" remote="fox" revision="fox_7.1" >
-          <copyfile src="core/root.mk" dest="Makefile" />
-          <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-          <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-          <linkfile src="core" dest="build/core" />
-          <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-          <linkfile src="target" dest="build/target" />
-          <linkfile src="tools" dest="build/tools" />
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
 
 
   <project name="bootable/Recovery" path="bootable/recovery" remote="of" revision="refs/tags/R8.0" />
