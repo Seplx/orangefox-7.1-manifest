@@ -11,7 +11,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project name="bootable/Recovery" path="bootable/recovery" remote="of" revision="R8.0" />
+  <project name="bootable/Recovery" path="bootable/recovery" remote="of" revision="refs/tags/R8.0" />
   
   <project name="vendor/omni" path="vendor/omni" remote="of" revision="android-7.1" />
   <project name="vendor/Vendor" path="vendor/recovery" remote="of" revision="fox_7.1" />
